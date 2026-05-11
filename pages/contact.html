@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - UOG CS Department</title>
+  <link rel="stylesheet" href="../cssFile/globalStyles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+    <a href="../index.html" class="nav-logo" style="text-decoration: none; color: inherit;">
+      <img src="../sources/logo.svg" alt="Logo" width="40" height="40">
+      <span>UOG CS</span>
+    </a>
+    <button class="menu-toggle">?</button>
+    <div class="nav-links">
+      <a href="../index.html" class="nav-link">Home</a>
+      <a href="courses.html" class="nav-link">Courses</a>
+      <a href="admissions.html" class="nav-link">Admissions</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="login.html" class="nav-link">Login</a>
+      <a href="dashboard.html" class="nav-link">Dashboard</a>
+      
+      <div class="nav-dropdown">
+        <button class="nav-more">More ?</button>
+        <div class="nav-dropdown-menu">
+          <a href="faculty.html" class="nav-link">Faculty</a>
+          <a href="announcements.html" class="nav-link">Announcements</a>
+          <a href="events.html" class="nav-link">Events</a>
+          <a href="resources.html" class="nav-link">Resources</a>
+          <a href="research.html" class="nav-link">Research</a>
+          <a href="gallery.html" class="nav-link">Gallery</a>
+          <a href="register.html" class="nav-link">Register</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" style="min-height: 30vh;">
+    <div class="hero-content flex-center" style="text-align:center;">
+      <h1>Contact Us</h1>
+      <p class="hero-tagline">We'd love to hear from you.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="flex-row">
+      <div class="card" style="flex: 1;">
+        <img src="../sources/contact.svg" alt="Location" class="card-img" style="height: 150px;">
+        <h3>Our Address</h3>
+        <p>Department of Computer Science</p>
+        <p>University of Gujrat, Hafiz Hayat Campus</p>
+        <p>Gujrat, Punjab, Pakistan</p>
+        <br>
+        <p><strong>Phone:</strong> +92 53 111 222 333</p>
+        <p><strong>Email:</strong> cs.dept@uog.edu.pk</p>
+      </div>
+
+      <div class="card" style="flex: 2;">
+        <h3>Send a Message</h3>
+        <form class="validate-form" style="margin-top: 1rem;">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" class="form-input" required>
+            <span class="error-msg"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" class="form-input" required>
+            <span class="error-msg"></span>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" class="form-input" required>
+            <span class="error-msg"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" class="form-input" rows="4" required></textarea>
+            <span class="error-msg"></span>
+          </div>
+          <button type="submit" class="btn-pill btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="section-heading">
+      <h2>Faculty Emails</h2>
+    </div>
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Designation</th>
+          <th>Email Address</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Dr. Ahmed Khan</td>
+          <td>Professor</td>
+          <td><a href="mailto:ahmed.khan@uog.edu.pk">ahmed.khan@uog.edu.pk</a></td>
+        </tr>
+        <tr>
+          <td>Dr. Sara Ali</td>
+          <td>Associate Professor</td>
+          <td><a href="mailto:sara.ali@uog.edu.pk">sara.ali@uog.edu.pk</a></td>
+        </tr>
+        <tr>
+          <td>Mr. Usman Raza</td>
+          <td>Lecturer</td>
+          <td><a href="mailto:usman.raza@uog.edu.pk">usman.raza@uog.edu.pk</a></td>
+        </tr>
+        <tr>
+          <td>Ms. Hina Malik</td>
+          <td>Lecturer</td>
+          <td><a href="mailto:hina.malik@uog.edu.pk">hina.malik@uog.edu.pk</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="about.html" class="footer-link">About Us</a>
+      <a href="admissions.html" class="footer-link">Admissions</a>
+      <a href="contact.html" class="footer-link">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact Info</h4>
+      <p>University of Gujrat</p>
+      <p>cs.dept@uog.edu.pk</p>
+      <p>+92 53 111 222 333</p>
+    </div>
+    <div class="footer-col">
+      <h4>Social Media</h4>
+      <a href="#" class="footer-link">Facebook</a>
+      <a href="#" class="footer-link">Twitter</a>
+      <a href="#" class="footer-link">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="../jsFile/jsFunctions.js"></script>
+</body>
+</html>
