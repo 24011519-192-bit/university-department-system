@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admissions - UOG CS Department</title>
+  <link rel="stylesheet" href="../cssFile/globalStyles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+    <a href="../index.html" class="nav-logo">
+      <img src="../sources/logo.svg" alt="Logo" width="40" height="40">
+      <span>UOG CS</span>
+    </a>
+    <button class="menu-toggle">?</button>
+    <div class="nav-links">
+      <a href="../index.html" class="nav-link">Home</a>
+      <a href="courses.html" class="nav-link">Courses</a>
+      <a href="admissions.html" class="nav-link">Admissions</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="login.html" class="nav-link">Login</a>
+      <a href="dashboard.html" class="nav-link">Dashboard</a>
+      
+      <div class="nav-dropdown">
+        <button class="nav-more">More ?</button>
+        <div class="nav-dropdown-menu">
+          <a href="faculty.html" class="nav-link">Faculty</a>
+          <a href="announcements.html" class="nav-link">Announcements</a>
+          <a href="events.html" class="nav-link">Events</a>
+          <a href="resources.html" class="nav-link">Resources</a>
+          <a href="research.html" class="nav-link">Research</a>
+          <a href="gallery.html" class="nav-link">Gallery</a>
+          <a href="register.html" class="nav-link">Register</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero hero-sm">
+    <div class="hero-content flex-center hero-content-centered">
+      <h1>Admissions</h1>
+      <p class="hero-tagline">Start your journey in Computer Science.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <div class="section-heading">
+      <h2>Requirements & Process</h2>
+    </div>
+    <div class="flex-row">
+      <div class="card">
+        <h3>Eligibility Requirements</h3>
+        <p>- Minimum 60% marks in Intermediate (FSc/ICS) or equivalent.</p>
+        <p>- Valid entry test score (NTS or UOG Entry Test).</p>
+      </div>
+      <div class="card">
+        <h3>Process Steps</h3>
+        <p>1. Fill out the online application.</p>
+        <p>2. Submit required documents.</p>
+        <p>3. Appear for the entry test.</p>
+        <p>4. Check merit list and pay fees.</p>
+      </div>
+    </div>
+
+    <div class="section-heading">
+      <h2>Important Deadlines</h2>
+    </div>
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Event</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Application Deadline</td>
+          <td>August 15, 2026</td>
+        </tr>
+        <tr>
+          <td>Entry Test</td>
+          <td>August 22, 2026</td>
+        </tr>
+        <tr>
+          <td>First Merit List</td>
+          <td>September 1, 2026</td>
+        </tr>
+        <tr>
+          <td>Commencement of Classes</td>
+          <td>September 15, 2026</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="section-heading">
+      <h2>Admission Inquiry</h2>
+    </div>
+    <div class="card card-form">
+      <form class="validate-form">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" class="form-input" required>
+          <span class="error-msg"></span>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" class="form-input" required>
+          <span class="error-msg"></span>
+        </div>
+        <div class="form-group">
+          <label for="message">Your Inquiry</label>
+          <textarea id="message" name="message" class="form-input" rows="4" required></textarea>
+          <span class="error-msg"></span>
+        </div>
+        <button type="submit" class="btn-pill btn-primary">Send Inquiry</button>
+      </form>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="about.html" class="footer-link">About Us</a>
+      <a href="admissions.html" class="footer-link">Admissions</a>
+      <a href="contact.html" class="footer-link">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact Info</h4>
+      <p>University of Gujrat</p>
+      <p>cs.dept@uog.edu.pk</p>
+      <p>+92 53 111 222 333</p>
+    </div>
+    <div class="footer-col">
+      <h4>Social Media</h4>
+      <a href="#" class="footer-link">Facebook</a>
+      <a href="#" class="footer-link">Twitter</a>
+      <a href="#" class="footer-link">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="../jsFile/jsFunctions.js"></script>
+</body>
+</html>
